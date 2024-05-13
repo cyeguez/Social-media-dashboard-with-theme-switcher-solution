@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+<script>
+  const storageTheme= localStorage.getItem('theme')
+  const systemColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  const newTheme = storageTheme ?? systemColorScheme;
+
+  document.documentElement.setAttribute('data-theme' , newTheme);
+</script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-general">
+      <header class="header">
+        <div class="header__titles">
+          <h1 class="titles__title">Social Media Dashborad</h1>
+          <h4 class="titles__subtitle">Total Followers: 23,004</h4>
+        </div>
+        <hr class="header__line" />
+        <div class="header__container-dark-mode">
+          <h2 class="container-dark-mode__text">Dark Mode</h2>
+          <label
+            for="container-dark-mode__input"
+            class="container-dark-mode__btn"
+          >
+            <input
+              type="checkbox"
+              id="container-dark-mode__input"
+              class="container-dark-mode__input"
+            />
+            <div class="container-dark-mode__circle"></div>
+          </label>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main__follower"></section>
+
+        <section class="main__overview">
+          <p class="overview__title">Overview-Today</p>
+
+          <div class="overview__container">            
+          </div>
+
+          <!-- <div class="overview__item">
+            <div class="item__titles">
+              <p class="item__statsType"></p>
+              <img
+                src="./assets/images/icon-${
+                item.network
+              }.svg"
+                alt=""
+                class="item__network"
+              />
+            </div>
+            <div class="items__stacts">
+              <p class="stacts__stact">87</p>
+              <p class="porcentage">3%</p>
+            </div>
+          </div> -->
+        </section>
+      </main>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
