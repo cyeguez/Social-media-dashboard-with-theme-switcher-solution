@@ -43,15 +43,15 @@ Users should be able to:
 
 ## My process
 
-1. I start by defining the semantic tags of the project.
-2. Define the variables.
-3. Write CSS styles.
-4. Develop logic in CSS.
+ 1. Start by defining the semantic tags of the 2.project.
+ 2. Define the variables.
+ 3. Write CSS styles.
+ 4. Develop logic in CSS.
 
 
 ### Built with
 
-[![Tecnology](https://skillicons.dev/icons?i=js,html,css,tailwind, figma)](https://skillicons.dev)
+[![Tecnology](https://skillicons.dev/icons?i=js,html,css,figma)](https://skillicons.dev)
 
 ## Author
 
