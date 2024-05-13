@@ -51,7 +51,7 @@ function render(data) {
         <div class="content__info">
           <div className="info__red-social"><img src="./assets/images/icon-${
             item.network
-          }.svg" alt="icon facebook"  /></div>
+          }.svg" alt="icon de ${item.network}"  /></div>
           <p class="info__name">${item.user}</p>
         </div>
         <p class="content__audience">${item.audience}</p>
