@@ -50,7 +50,7 @@ function render(data) {
       <div class="follower__card__content" >
         <div class="content__info">
           <div className="info__red-social">
-          <img src="./assets/images/icon-${item.network}" 
+          <img src="./assets/images/icon-${item.network}.svg" 
           alt="icon de ${item.network}"  /></div>
           <p class="info__name">${item.user}</p>
         </div>
@@ -80,7 +80,7 @@ function renderOverview(data) {
     <div class="overview__item">
       <div class="item__titles">
         <p class="item__statsType">${item.statsType}</p>
-        <img src="./assets/images/icon-${item.network}" 
+        <img src="./assets/images/icon-${item.network}.svg" 
         alt="Icono de ${item.network}" class="item__network" />
     </div>
     <div class="items__stacts">
