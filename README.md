@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [git Hub](https://github.com/cyeguez/Social-media-dashboard-with-theme-switcher-solution)
+- Live Site URL: [Git Pages](https://cyeguez.github.io/Social-media-dashboard-with-theme-switcher-solution/)
 
 ## My process
 
