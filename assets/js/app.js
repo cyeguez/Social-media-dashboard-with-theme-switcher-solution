@@ -81,7 +81,7 @@ function renderOverview(data) {
       <div class="item__titles">
         <p class="item__statsType">${item.statsType}</p>
         <img src="./assets/images/icon-${item.network}.svg" 
-        alt="Icono de ${item.network}" class="item__network" />
+        alt="Icono de ${item.network}" class="item__network"/>
     </div>
     <div class="items__stacts">
       <p class="stacts__stact">${item.stats}</p>
