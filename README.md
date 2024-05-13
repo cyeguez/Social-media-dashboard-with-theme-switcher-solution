@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [git Hub](https://github.com/cyeguez/Social-media-dashboard-with-theme-switcher-solution)
+- Solution URL: [Github](https://github.com/cyeguez/Social-media-dashboard-with-theme-switcher-solution)
 - Live Site URL: [Git Pages](https://cyeguez.github.io/Social-media-dashboard-with-theme-switcher-solution/)
 
 ## My process
